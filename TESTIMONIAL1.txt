@@ -1,0 +1,27 @@
+Dear Maya Sreekumar,
+
+Thank you for giving us opportunity for CSD training under GenC Learning Program.
+As a cohort representative, I am writing this mail on the behalf QEA SDET domain.
+
+1. This SDET training was of 16 weeks and it started from 12th January 2024 till 15th May 2024.
+   Under this training, we have studied many concepts under two stages related to our domain like Functional testing to Java basics to advance , Web UI and SQL, PL-SQL in Stage1.
+   In stage 2, we have studied Spring, SpringBoot, Microservices as Java backend development and then after studied Selenium automation testing tools like Selenium Basics, TestNG, Cucumber, POM, Git and Jenkins.
+
+2. We have done three projects during our whole training program one is Mini project under that we just automated the website, second one is CAS major project under that we automated and validated website, and third one is Hackthon project under that we implemented the advance concepts of selenium.
+
+3. In Selemium, we were having less time during our training but it would be more helpful if we are having additional time in our training, with the help of coach and trainer we were able to cope up with the curriculum and also got real time experience in this domain.
+ 
+4. Througout this training journey, we were having Coach Santhanalakshmi B, who was very supportive, caring and provided each and every information on time and also motivated us before every milestones like Qualifier, interim and Final SME evaluation.
+   Apart from this, she also guided us for our future currier growth and trending market technologies which will be helpful for us in our future.
+
+5. During this trainig, we were having our technical trainer Maheswaran S, who was very supportive, informative for every stages and take the sessions daily on each and evry important conecpts.
+   He also assigned one full stack development project to each cohort and also motivated us to complete the project and also given idea, help and taught us the appraoch of how to start the project.
+   During this trainig, we were having our behavoiral trainer Sejo Padua, who was very supportive, informative and taught us soft skills and all the professional skills which is going to be more helpful for our cooperate life.
+	
+6. We were also having our one mentor Karthik R, who was very interactive, informative and supportive to us. He used to give information on how things work in cognizant related to project and also solved our queries related to our training.
+   He also helped us in building our mini, CAS, and Hackthon projects.
+
+7. It is especial mention for our coach who had QEA domain experience which was more helpful during our training, we were able to get ideas from her as well. 
+
+8. Apart from all these technical training journey, we also participated in pot making competition, Pongal celebration and Ethinic wear.
+
