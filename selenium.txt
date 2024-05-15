@@ -1,0 +1,15 @@
+Selenium Interview Question:
+
+1) What is Selenium?
+Selenium is an open-source (free) automated testing framework for validating web applications across multiple browsers and platforms. 
+
+Selenium Test Scripts can be written in a variety of programming languages, including Java, C#, Python, and others.
+
+The following is a list of tools incorporated within Selenium:
+
+Selenium Integrated Development Environment (IDE).
+Selenium Remote Control (RC).
+Selenium WebDriver.
+Selenium Grid.
+
+

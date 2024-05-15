@@ -1,0 +1,140 @@
+*****************Thread************************
+
+1) What is multithreading?
+Multithreading is a process of executing multiple threads simultaneously.
+Multithreading is used to obtain the multitasking. 
+It consumes less memory and gives the fast and efficient performance. 
+
+Advantages:
+Threads share the same address space.
+The thread is lightweight.
+The cost of communication between the processes is low.
+
+
+
+2) What is the thread?
+A thread is a lightweight subprocess. 
+It is a separate path of execution because each thread runs in a different stack frame. A process may contain multiple threads. 
+Threads share the process resources, but still, they execute independently.
+
+
+3) Differentiate between process and thread?
+A Program in the execution is called the process whereas; A thread is a subset of the process
+Processes are independent whereas threads are the subset of process.
+
+
+4) What is the purpose of wait() method in Java?
+The wait() method is provided by the Object class in Java. 
+This method is used for inter-thread communication in Java. 
+The java.lang.Object.wait() is used to pause the current thread, and wait until another thread does not call the notify() or notifyAll() method. 
+Its syntax is given below: public final void wait()
+
+
+5) What are the states in the lifecycle of a Thread?
+A thread can have one of the following states during its lifetime:
+
+New: In this state, a Thread class object is created using a new operator, but the thread is not alive. Thread doesn't start until we call the start() method.
+Runnable: In this state, the thread is ready to run after calling the start() method. However, the thread is not yet selected by the thread scheduler.
+Running: In this state, the thread scheduler picks the thread from the ready state, and the thread is running.
+Waiting/Blocked: In this state, a thread is not running but still alive, or it is waiting for the other thread to finish.
+Dead/Terminated: A thread is in terminated or dead state when the run() method exits.
+
+
+6) What does join() method?
+The join() method waits for a thread to die. 
+In other words, it causes the currently running threads to stop executing until the thread it joins with completes its task.
+
+7) Describe the purpose and working of sleep() method.
+The sleep() method in java is used to block a thread for a particular time, which means it pause the execution of a thread for a specific time.
+
+
+
+
+
+
+
+**************Stream API**************************
+
+1. Functional Interfaces: What Are They?
+An interface that just has one abstract method is said to be functional. 
+These interfaces are implemented using a Lambda Expression. 
+Therefore to utilize it, you must either develop a new functional interface or use an existing one from Java 8.
+
+It contains any number of default and static methods.
+
+
+2. what is Stream?
+It is a feature of java 8.
+It behave like API.
+To process objects or elements of collection, Stream concept is getting used.
+Filter and Map are the two mechanism which are used to process the date from collecton.
+
+These Filter and Map all works with lambda expression.
+
+Stream helps us to achieve concurrency and fuctional programing.
+
+
+3. Can streams be utilized just once?
+
+Yes, streams can only be used once, so they must be recreated after being used.
+
+
+7. What is the difference between streams and collections?
+
+Streams are a data sequence that can be processed using operations, unlike arrays or collections, which are fixed in size and can be accessed randomly.
+
+
+
+
+
+************Lamda Expression**************
+
+1. What is a Lambda Expression?
+LD expression comes under java8.
+To bring functional programing in java we use lamda expression.
+It is used to improve the code optimization and consize the code.
+
+Java OOP				Java Fn prog
+----------				--------------
+Classes				Functions
+Objects				Variables
+
+
+LD Expression is anonymous function[means it does not have return type,acess modifiers and name of method]
+
+To convert java method to lamda Expression:
+Public void m1()		|	()->
+{				|	{
+	sop("Moupali");	|		sop("Moupali");
+}				|	}
+
+
+
+In LD expression, No need to specify the type of varialbe, compiler will automitaclly take care of it.
+
+
+To convert java method to lamda Expression:
+Public void m1(int a)	|	(a)->Moupali;
+{				|		or
+	return Moupali;	|		Moupali;
+}				|	a->Moupali;
+
+
+
+************JDBC****************
+In copy
+
+************File Handling*******
+In Copy
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,367 @@
+//Water fall model:
+The waterfall model is a linear, sequential approach to the software development lifecycle (SDLC) that is popular in software engineering and product development. 
+
+
+
+1. What is the difference between verification and validation?
+
+Verification and validation both refer to process evaluations, but at different points of the development phase.
+
+Verification focuses on pre-development, ensuring that the end product meets the specified functionality requirements (in other words, that you are building the right app). 
+
+Validation focuses on post-development, where you ensure that the final application meets the demands of the customer.
+
+Verification involves activities such as inspections, reviews, and walkthroughs, while validation employs system testing, integration, and user acceptance. 
+
+The testing types that are used also go by different names (verification is also known as static testing, while validation is considered dynamic testing).
+
+
+
+2. What is the difference between a test plan and a test strategy?
+
+Test plan is a project-level document that defines how testing will be done and who will test. 
+
+Testing strategy is an organization-level document explaining test design and the techniques used to reach any testing goals. 
+
+Test strategy is a long-term vision that outlines testing team structures.
+
+
+
+3. What is the difference between severity and priority?
+
+Severity and priority both concern how a bug is addressed. 
+
+Severity measures the degree of impact on the function of a system, while priority defines the business importance and the timeframe placed on bug resolution.
+
+Think of priority as how soon the bug needs to be fixed according to company and customer needs, while severity refers more to the actual application operation.
+
+Severity: Critical, Major, Minor, Low
+Priority: High, Medium, Low
+
+
+
+4. What is a defect life cycle?
+
+A defect is any error in an application that disrupts the normal flow of operation. 
+
+It is your job as a functional tester to locate and eliminate as many bugs as possible before they reach the customer.
+
+Defect life cycle states:
+
+New: Any recently located bugs are given a “new” status
+
+Assigned: The new defect is assigned to a development team for correction
+
+Open: Analysis and corrective actions begin
+
+Fixed: All changes to the defect are completed
+
+Pending Retest: The developer reassigns the defect back to the tester
+
+Retest: the tester verifies the fixed defect
+
+Verified Closed: With no additional flaws, the test cycle is verified and closed
+
+
+
+5. What are the key elements when reporting a bug?
+
+A software defect report conveys detailed information about the bug issues to the developers who will replicate and fix the error. 
+The better you are at writing reports, the easier the defect life cycle will be for the entire team.
+
+Unique ID
+Short description
+Steps to reproduce
+Environment
+Severity
+Priority
+Screenshots/logs
+Reporter name
+Assignee
+
+
+
+6. What is the difference between bug release and bug leakage?
+
+Bug release and bug leakage refer to known errors, but at different stages of consumer release.
+
+Bug leakage: When a bug is missed by the testing team and found by a customer on the user end, that is considered bug leakage.
+
+Bug Release: Certain application versions are released with a known set of low priority/severity bugs.
+
+
+
+7. What is the difference between smoke and sanity testing?
+
+Smoke and Sanity are both testing processes that evaluate an application, but with different sets of considerations.
+
+Smoke testing determines the stability of a software build. 
+It is a shallow form of testing, meant to improve the overall value of the system with a limited number of test cases and detail. 
+You can use automated solutions to reduce manual labor, depending on the generation of tools you use.
+
+Sanity testing assesses if a software build functions as expected. 
+It is a subset of regression testing and focuses on a narrow operation scope.
+
+
+
+8) What is Functional Testing?
+
+Functional Testing is a software testing method that helps you to validate the software system against the functional requirements/specifications.
+
+
+9) What is the purpose of Functional Testing?
+The main purpose of Functional tests is to test each function of the software application by offering appropriate input and verifying the output against the Functional requirements.
+
+
+10) What kind of testing covers functional Testing?
+Functional Testing involves black box testing and is not concerned about the application’s source code. 
+This Testing checks the User Interface, APIs, Database, Client/Server communication, and various other Application functionalities Under Test. 
+This software testing method can be performed either manually or using automation.
+
+
+11) What do you test in Functional Testing?
+Here are some reasons for using Functional Testing:
+
+Mainline functions: It tests the main functions of an application.
+
+Basic Usability: This method involves basic usability testing of the system. It also checks if the user can freely navigate the screens without difficulties.
+
+Accessibility: It checks the accessibility of the software system for the user
+
+Error Conditions: You can use the testing techniques to check for error conditions. It also checks if relevant error messages are displayed.
+
+
+
+
+12) What are the important steps that are covered in Functional Testing?
+Functional Testing is done by following steps:
+
+Step 1) Requirements specified by the user or organization are studied, then clear all the doubts and queries.
+
+Step 2) Based on the specified requirements, test cases are designed by keeping in mind all the test scenarios that must be covered for all test cases.
+
+Step 3) Identify all test data required to check the system’s functionality and determine the input.
+
+Step 4) Determine the expected output based on the input values and functionality.
+
+Step 5) After this tester execute all test cases to check whether they are performing well or not
+
+Step 6) Compare the outcome with the expected output and determine the system’s defect rate and accuracy.
+
+
+
+13) What is the use of a Traceability Matrix?
+Traceability matrix shows the relationship between test cases and requirements with the help of one document.
+
+
+
+14) What is the difference between functional and non-functional testing?
+
+Functional										Non-functional testing
+Functional testing is performed before non-functional testing.	Non-functional testing is always performed after the functional testing.
+It is based on customers’ requirements.					It is mainly focuses on customers’ expectations.
+It helps to validate the behavior of the application.			It helps to validate the performance of the application.
+It describes what the product does.						It describes how the product works.
+
+
+
+15) What are the different Test Levels?
+There are four test levels:
+
+Integration testing: Integration Testing is defined as a software testing method where software modules are integrated logically and tested as one group.
+
+System testing: System Testing is a level of testing which validates the complete and fully integrated software product.
+
+Acceptance testing: Acceptance Testing (UAT) is a type of testing performed by the end-user or the client to verify/accept the software system before moving the software application to the production environment.
+
+Unit/component/program/module testing: It uses for testing all the components and modules under test
+
+
+
+16) What is the use of Acceptance Testing?
+Acceptance testing determines whether the software system has met the required specifications. 
+The main aim of this type of test is to evaluate the system’s compliance with the business needs and verify if it has met the needed criteria for delivery to end-users.
+
+
+17) What Is Adhoc Testing?
+Adhoc testing, also known as random testing, is a method of testing that does not follow any test cases or requirements associated with the application. 
+In most cases, It is an unplanned activity where any part of the application is randomly checked to find defects.
+
+
+
+18) What Is Mean by Equivalence Partitioning?
+Equivalence partitioning is also called equivalence class. 
+It is a black box testing that divides input data into data classes. 
+This software testing process helps you to decrease the number of test cases while still covering the maximum requirement.
+
+
+
+19) What is Boundary Value Analysis?
+It is a technique for analyzing the boundary values of Equivalence class partitions. 
+This testing technique helps you identify errors at the boundaries rather than within the range values.
+Example: password field range
+
+
+20) When to Do Smoke Testing?
+Smoke is a testing method performed on the system after receiving the build. 
+This type of testing method checks for the critical path and not the functionality to ensure that the build is accepted for further testing or it should be rejected in case of a broken system. 
+Smoke Testing also checks the system’s critical path, without which the application is blocked.
+
+
+
+
+21) Why do we need to conduct end-to-end Testing?
+End-to-end testing is a method that allows you to execute tests that cover all the possible flow of the testing application from start to finish basis. 
+This software testing approach helps you to discover software dependencies and assert that the correct input is passed between different software modules and sub-systems.
+
+
+22) What do you understand by Sanity testing?
+Sanity testing is conducted after receiving the build to check the new functionality/defects that need to be fixed. 
+In this type of testing, the goal is to check the functionality, determine whether the bug is fixed, and test the effect of the fixed bug on the application under Test.
+
+
+23) What is the difference between severity and Priority?
+Defect Severity is a level or the degree of impact by the defect on the application under Test. 
+You should remember that the higher the severity of the defect, the more it will impact the application.
+
+
+17) What is RTM?
+Requirement Traceability Matrix is a full form of RTM. 
+It is a tool that helps the tester helps you to keep track of requirement coverage over the testing process. 
+Once the requirement document is received. 
+It is created based on the requirements and maintained until the specific system or application is released.
+
+
+
+18) What is Data-driven Testing?
+Data-driven Testing is a famous functional testing method where test scripts are executed repeatedly with the help of data sources like spreadsheets, Excel, CSV files, XML files, and SQL database files. 
+You can use these data sources are used as input values to generate the output. 
+After that, its’ outcome is compared expected to verify the system or software.
+
+
+19) What is Mutation Testing?
+The purpose of mutation testing is to verify whether a set of test data or test cases is useful or not. 
+It is done by deliberately adding various code changes (bugs) and re-testing with original test cases or data.
+
+
+
+20) What is Stress Testing?
+Stress Testing is a performance testing method in which the application is bound to go through exertion or stress. 
+For example, execution of an application above the break threshold to determine the point where the software program crashes.
+
+
+21) What is Load Testing?
+Load Testing is a performance testing method where the application is executed beyond various load levels. 
+It helps you monitor the server’s peak performance, response time, etc. 
+Using this performance testing method, you can determine the application’s stability, performance, and integrity under parallel system load.
+
+
+
+22) What are the main advantages of Automation testing?
+Here are the advantages of Automation testing:
+
+It provides support for the execution of repeated test cases
+It helps in testing a large test matrix
+It allows parallel execution and also encourages unattended execution
+
+
+
+23) What is covered, and what are the different coverage techniques?
+There are three basic types of coverage techniques, and they are:
+
+Statement coverage: This coverage method ensures that each line of source code has been executed and tested.
+
+Decision coverage assures that every decision (true/false) in the source code has been executed and tested.
+
+Path coverage: Ensure that every possible route through a given part of the code is executed and tested.
+
+
+
+24) What is a Bug report?
+A software tester records their observations, fact-findings, and other helpful information to the developers during the software testing. All this data related to the test record is also called a bug report.
+
+A detailed bug report is essential for production during Testing.
+
+It helps you to understand the problem
+The environment and the specific conditions under which it happens
+The resolution if/when the software developers fix the problem
+
+
+
+25) What is GUI testing?
+GUI testing is Graphical User Interface testing which tests the interface between the software and the end-user.
+
+
+
+26) What is SDLC? Software Development Life Cycle
+
+SDLC is a systematic process for building software that ensures the quality and correctness of the software built. 
+SDLC process aims to produce high-quality software that meets customer expectations.
+
+The system development should be complete in the pre-defined time frame and cost.
+SDLC Phases:
+The entire SDLC process divided into the following SDLC steps
+
+Phase 1: Requirement collection and analysis
+
+Phase 2: Feasibility study
+
+Phase 3: Design
+
+Phase 4: Coding
+
+Phase 5: Testing
+
+Phase 6: Installation/Deployment
+
+Phase 7: Maintenance
+
+
+
+27) Regression testing: This process is conducted once a software build has been released. The purpose of this test is to ensure adding fresh code, improvements, or fixing bugs does not cause instability or compromise the software functionality.
+	(refer to the  "butterfly notes")
+This type of testing makes sure that alterations to the code won't affect the system's functionality.
+
+The purpose of this test is to ensure that adding fresh code, improvements, or fixing bugs does not cause instability or compromise the software functionality.
+
+Regression testing does not include defect verification. 
+
+
+28) Build Once the source code for the software application is developed, developers convert it into standalone or executable form (build). 
+As soon as the build has been completed, the development team passes it on to the testing team for testing. 
+The software testing team checks this build for multiple bugs and if it fails to meet the requirements, the build is rejected.  
+
+
+29) Monkey Testing: 
+This is similar to Ad Hoc Testing, except that it can be done by testers without any prior knowledge or information about the software. 
+The monkey test is an automated test conducted without planning any specific test in advance. 
+A tester tests the system by randomly trying its features to see if he can break it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

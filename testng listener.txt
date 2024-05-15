@@ -1,0 +1,10 @@
+TESTNG LISTENER:
+TestNG provides the @Listeners annotation which listens to every event that occurs in a selenium code. 
+Listeners are activated either before the test or after the test case. 
+It is an interface that modifies the TestNG behavior.
+
+For example, when you are running a test case either through selenium or appium and suddenly a test case fails. 
+We need a screenshot of the test case that has been failed, to achieve such scenario, TestNG provides a mechanism, i.e., Listeners.
+When the test case failure occurs, then it is redirected to the new block written for the screenshot.
+
+

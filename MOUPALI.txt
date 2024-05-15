@@ -1,0 +1,30 @@
+SME PREPARATION:
+
+SPRING INTERVIEW QUESTIONS:
+ YOUTUBE LINK:  https://www.youtube.com/live/MrmSyzNQCD8?si=bPlKp2nFAyYHuydg
+JAVATPOINT: https://www.javatpoint.com/spring-interview-questions
+
+
+SPRINGBOOT INTERVIEW QUESTION:
+ YOUTUBE LINK:  https://youtu.be/CXTiwkZVoZI?si=IrDKesASpVIdKVdA
+GFG LINK: https://www.geeksforgeeks.org/spring-boot-interview-questions/#spring-boot-interview-questions-for-freshers
+
+
+SPRING MVC INTERVIEW QUESTION:
+YOUTUBE LINK: https://youtu.be/UMQGOuu4zaY?si=m2XmVn0U--III8ap
+
+SPRING RESTFUL WEBSERVICES INTERVIEW QUESTION:
+YOUTUBE LINK:  https://youtu.be/JjkIUN_vUvI?si=9hUjJOsJTeC-jjgM
+
+JUNIT AND MOCKITO AND MICROSERVIES INTERVIEW QUESTIONS:
+UDEMY LINK: https://cognizant.udemy.com/course/spring-boot-tutorial-for-beginners/learn/lecture/32831564#overview
+JUNIT YOUTUBE LINK: https://youtu.be/gy787xImUrY?si=csoPuEJvp5RwO4Kb
+MICROSERVICES YOUTUBE LINK: https://youtu.be/9x_6VLk3GtY?si=MEZBEP7pRocBaJ8i
+MOCKITO YOUTUBE LINK: https://youtu.be/kTb2FyX40oM?si=4YstFTPBQ9j25YuH
+
+
+
+
+
+
+

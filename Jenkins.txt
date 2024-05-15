@@ -1,0 +1,166 @@
+Jenkins Interview Questions:
+
+
+1. What is CI?
+
+Answer:  What is Continuous Integration?
+
+Continuous Integration is a development practice in which the developers are required to commit changes to the source code in a shared repository several times a day or more frequently. 
+Every commit made in the repository is then built. 
+This allows the teams to detect the problems early. 
+Continuous Integration is the most important part of DevOps that is used to integrate various DevOps stages. 
+Jenkins is the most famous Continuous Integration tool.
+
+
+Continuous Integration: CI or Continuous Integration is an engineering practice in which members of a development team integrate their code at a very high frequency. 
+Teams implementing CI aim to integrate code daily or, in some cases, even hourly.
+
+Continuous Delivery: CD or Continuous Delivery is the practice of ensuring that code is always in a deployable state. 
+This means that all changes to code – new features, bug fixes, experiments, configuration changes – are always ready for deployment to a production environment.
+
+Continuous Deployment: CD can also mean Continuous Deployment – a practice in which all changes are automatically deployed into production. 
+Unlike Continuous Delivery, there is no final manual approval step before releasing into production.
+
+
+
+
+2. What is Jenkins?
+
+Answer:  Jenkins is an open source automation tool written in Java with plugins built for Continuous Integration purpose. 
+Jenkins is used to build and test your software projects continuously making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build. 
+It also allows you to continuously deliver your software by integrating with a large number of testing and deployment technologies. 
+Jenkins integrates development life-cycle processes of all kinds, including build, document, test, package, stage, deploy, static analysis and much more. 
+Jenkins achieves Continuous Integration with the help of plugins. 
+Plugins allows the integration of Various DevOps stages. 
+If you want to integrate a particular tool, you need to install the plugins for that tool. 
+For example: Git, Maven, HTML publisher etc.
+
+
+Advantages:
+
+Advantages of Jenkins include:
+
+It is an open source tool with great community support.
+It is easy to install.
+It has 1000+ plugins to ease your work. If a plugin does not exist, you can code it and share with the community.
+It is built with Java and hence, it is portable to all the major platforms.
+
+
+3. What is a Jenkins Pipeline?
+
+Answer: Jenkins Pipeline (or simply “Pipeline”) is a suite of plugins which supports implementing and integrating continuous delivery pipelines into Jenkins.
+
+
+4. What is Groovy in Jenkins?
+
+Answer: Groovy is the default scripting language that is being used in the development of JMeter Version 3.1. 
+Currently Apache Groovy is the dynamic object-oriented programming language that is used as a scripting language for the Java platform. 
+Apache Groovy comes with some useful features such as Java Compatibility and Development Support.
+
+
+
+5. Diff between maven, Jenkins, ant
+
+Answer: Maven is a build tool, in short a successor of ant. 
+It helps in build and version control. 
+However Jenkins is continuous integration system, where in maven is used for build. Jenkins can be used to automate the deployment process.
+
+
+6. Which SCM tools Jenkins supports?
+
+Answer:  below are the Source code management tools supported by Jenkins:
+
+AccuRev
+CVS
+Subversion
+Git
+Mercurial
+
+
+7. What is the relation between husdon and Jenkins?
+
+Answer: There is no such difference between Hudson and Jenkins. Jenkins is actually the renamed version of Hudson
+
+Jenkins was forked from Hudson when Sun was acquired by Oracle who aimed to develop a commercial version of the software. 
+Since the fork, Jenkins has grown to be much more than a CI solution.
+
+
+
+8. How can you clone a git repo via Jenkins?
+
+Answer: To create a clone repository via Jenkins you need to use your login credentials in the Jenkins System. 
+To achieve the same you need to enter the Jenkins job directory and execute the git config command.
+
+
+9. How do you start Jenkins?
+
+Answer: To start Jenkins from command line
+
+Open command prompt.
+
+Go to the directory where your war file is placed and run the following command: java -jar jenkins.war
+
+
+10. How to create a job in Jenkins?
+
+Answer:  Few of the steps given below
+
+Step 1 − Go to the Jenkins dashboard and Click on New Item.
+
+Step 2 − in the next screen, enter the Item name, in this case we have named it Helloworld.
+
+Step 3 − the following screen will come up in which you can specify the details of the job.
+
+Step 4 − we need to specify the location of files which need to be built.
+
+
+
+11. What are the basic plugins you used in Jenkins?
+
+Answer:
+
+Maven Integration - This plug-in provides, for better and for worse, a deep integration of Jenkins and Maven.
+
+Git plugin - This plugin integrates Git with Jenkins.
+
+TestNG Results Plugin - This plugin integrates TestNG test reports to Jenkins.
+
+HTML Publisher plugin - This plugin publishes HTML reports.
+
+Email Extension - This plugin is a replacement for Jenkins's email publisher. It allows to configure every aspect of email notifications: when an email is sent, who should receive it and what the email says.
+
+Email Extension Template Plugin - This plugin allows administrators to create global templates for the Extended Email Publisher.
+
+External Monitor Job Type Plugin - Adds the ability to monitor the result of externally executed jobs
+
+Green Balls- Because green is better than blue! For color blind support configure user property.
+
+
+12. On which platform JENKINS will work?
+
+Answer: It is built with Java and hence, it is portable to all the major platforms.
+
+
+13. Mention what are the two components Jenkins is mainly integrated with?
+
+Answer: Jenkins is mainly integrated with two components
+
+Version Control system like GIT, SVN
+And build tools like Apache Maven.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
